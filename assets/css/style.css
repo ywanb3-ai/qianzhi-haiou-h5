@@ -170,3 +170,24 @@ section{padding:clamp(64px,11vw,104px) 0;}
   .reveal{opacity:1;transform:none;transition:none;}
   html{scroll-behavior:auto;}
 }
+
+/* ---------- 双语（中英） ---------- */
+.en{color:var(--graphite);font-weight:400;}
+.kicker{display:flex;align-items:center;gap:8px;}
+.kicker .zh{color:var(--accent);}
+.kicker .sep{color:var(--ash);font-weight:400;}
+.sec-title .en{display:block;font-size:.46em;font-weight:500;letter-spacing:.02em;color:var(--graphite);margin-top:10px;text-transform:none;}
+.sec-sub.en{margin-top:6px;}
+p.en{font-size:.94em;line-height:1.78;margin-top:10px;}
+.card p.en{margin-top:8px;}
+.principle p.en{margin-top:4px;}
+.facts .v.en{font-size:13px;color:var(--graphite);margin-top:4px;}
+.hero h1 .en{display:block;font-size:.4em;font-weight:500;color:var(--graphite);margin-top:16px;letter-spacing:0;max-width:24em;}
+
+/* ---------- 即将上线 Coming Soon ---------- */
+.soft{background:var(--white);}
+.coming{max-width:42em;margin:0 auto;text-align:center;}
+.coming .lead{margin-left:auto;margin-right:auto;}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px;justify-content:center;}
+.chip{border:1px solid var(--hairline);background:var(--paper);padding:9px 18px;font-size:13.5px;color:var(--charcoal);border-radius:2px;letter-spacing:.02em;}
+.chip.strong{color:var(--accent);border-color:var(--accent);}
